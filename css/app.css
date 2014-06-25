@@ -1,0 +1,59 @@
+/* ================ page css ================ */
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei","微软雅黑",Helvetica,"黑体",Arial,Tahoma;
+}
+
+/* ================ home css ================ */
+.tc-banner {
+  height: 510px;
+}
+
+.tc-banner > .tc-banner-bg {
+  height: 100%;
+  background: url(../img/bg.png) no-repeat center;
+}
+
+/* ================ header css ================ */
+.tc-navbar {
+  margin-top: 20px;
+  border-radius: 4px;
+  background-color: rgba(250, 250, 244, .9);
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  	      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.tc-navbar .navbar-header .navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 48px;
+  height: 68px;
+}
+
+.tc-navbar .navbar-header .navbar-toggle {
+  margin-top: 17px;
+}
+
+.tc-navbar .navbar-nav > li {
+  padding: 20px 0px;
+}
+
+.tc-navbar .navbar-nav > li > a {
+  padding: 0px 20px;
+  border-right: 2px solid #aaa;
+  font-size: 16px;
+  line-height: 28px;
+  color: #999;
+}
+
+.tc-navbar .navbar-nav > li:last-child > a {
+  border-right: 0px;
+}
+
+.tc-navbar .navbar-nav > .active > a,
+.tc-navbar .navbar-nav > .active > a:hover,
+.tc-navbar .navbar-nav > .active > a:focus {
+  color: #006700;
+  background-color: transparent;
+}
+
