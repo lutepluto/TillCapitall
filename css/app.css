@@ -135,6 +135,7 @@ body {
 
   .tc-navbar .navbar-nav > li > a {
     border-right: 0px;
+    text-align: right;
   }
 }
 
