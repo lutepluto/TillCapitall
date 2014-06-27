@@ -83,9 +83,24 @@ body {
   }
 }
 
-.tc-banner > .tc-banner-bg {
+.tc-banner > .tc-banner-home {
   height: 100%;
-  background: url(../img/bg.png) no-repeat center;
+  background: url(../img/bg_home.png) no-repeat center;
+}
+
+.tc-banner > .tc-banner-about {
+  height: 100%;
+  background: url(../img/bg_about.png) no-repeat center;
+}
+
+.tc-banner > .tc-banner-fields {
+  height: 100%;
+  background: url(../img/bg_fields.png) no-repeat center;
+}
+
+.tc-banner > .tc-banner-team {
+  height: 100%;
+  background: url(../img/bg_team.png) no-repeat center;
 }
 
 #tc-carousel {
