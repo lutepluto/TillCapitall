@@ -76,7 +76,7 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  .tc-article-section img.pull-left {
+  .tc-article-section > div > img.pull-left {
     float: none!important;
   }
 
