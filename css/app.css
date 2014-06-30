@@ -97,7 +97,7 @@ ul.tc-article-text > li {
 }
 
 .tc-banner {
-  height: 510px;
+  height: 500px;
   margin-bottom: -200px;
 }
 
@@ -109,22 +109,22 @@ ul.tc-article-text > li {
 
 .tc-banner > .tc-banner-home {
   height: 100%;
-  background: url(../img/bg_home.png) no-repeat center;
+  background: url(../img/bg_home.jpg) no-repeat center;
 }
 
 .tc-banner > .tc-banner-about {
   height: 100%;
-  background: url(../img/bg_about.png) no-repeat center;
+  background: url(../img/bg_about.jpg) no-repeat center;
 }
 
 .tc-banner > .tc-banner-fields {
   height: 100%;
-  background: url(../img/bg_fields.png) no-repeat center;
+  background: url(../img/bg_fields.jpg) no-repeat center;
 }
 
 .tc-banner > .tc-banner-team {
   height: 100%;
-  background: url(../img/bg_team.png) no-repeat center;
+  background: url(../img/bg_team.jpg) no-repeat center;
 }
 
 #tc-carousel {
