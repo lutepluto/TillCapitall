@@ -211,20 +211,23 @@ ul.tc-article-text > li {
   line-height: 40px;
 }
 
-@media screen and (max-width: 564px) {
+@media screen and (max-width: 992px) {
   .footer {
-    text-align: left;
+    text-align: center;
   }
 
   .footer > img {
     float: none;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block!important;
   }
 }
 
 /* ================ button css ================ */
 .tc-btn {
-  width: 240px;
+  width: 280px;
   background-color: #fff;
   color: #777;
   -webkit-box-shadow: 1px 1px 0px 2px rgba(0, 0, 0, .15);
