@@ -2,6 +2,7 @@
 body {
   font-size: 14px;
   font-family: "Microsoft YaHei","微软雅黑",Helvetica,"黑体",Arial,Tahoma;
+  background-color: #f5f5f5;
 }
 
 .content-container {
@@ -101,30 +102,32 @@ ul.tc-article-text > li {
   margin-bottom: -200px;
 }
 
+.tc-banner.home {
+  background: url(../img/bg_home.jpg) no-repeat center;
+}
+
+.tc-banner.about {
+  background: url(../img/bg_about.jpg) no-repeat center;
+}
+
+.tc-banner.fields {
+  background: url(../img/bg_fields.jpg) no-repeat center;
+}
+
+.tc-banner.team {
+  background: url(../img/bg_team.jpg) no-repeat center;
+}
+
 @media screen and (max-width: 768px) {
   .tc-banner {
     margin-bottom: -200px;
   }
 }
 
-.tc-banner > .tc-banner-home {
-  height: 100%;
-  background: url(../img/bg_home.jpg) no-repeat center;
-}
-
-.tc-banner > .tc-banner-about {
-  height: 100%;
-  background: url(../img/bg_about.jpg) no-repeat center;
-}
-
-.tc-banner > .tc-banner-fields {
-  height: 100%;
-  background: url(../img/bg_fields.jpg) no-repeat center;
-}
-
-.tc-banner > .tc-banner-team {
-  height: 100%;
-  background: url(../img/bg_team.jpg) no-repeat center;
+.tc-banner > .tc-shadow {
+  height: 660px;
+  background: url(../img/white_shadow.png) repeat-x;  
+  background-position: center bottom;
 }
 
 #tc-carousel {
