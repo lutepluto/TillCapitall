@@ -83,7 +83,7 @@ ul.tc-article-text > li {
   margin-bottom: 5px;
 }
 
-.tc-article-section .right {
+.tc-article-section .right-text {
   margin-left: 240px;
 }
 
@@ -136,6 +136,15 @@ ul.tc-article-text > li {
 #tc-carousel {
   overflow: hidden;
   border-radius: 4px;
+  width: 100%;
+  height: auto;
+}
+
+#tc-carousel .carousel-inner img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  zoom: 1;
 }
 
 /* ================ header css ================ */
